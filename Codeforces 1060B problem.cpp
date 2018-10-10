@@ -9,7 +9,7 @@ int main()
 	ll int n,store;
 	vector<int>v3;
 	cin>>n;
-	for(ll int i=2*n/3;i<n/2+1;i=i+1)
+	for(ll int i=sqrt(n);i<n/2+1;i++)
 	{
 	   store = checkmaxsum(i,n-i);
 	   v3.push_back(store);
